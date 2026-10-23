@@ -1,0 +1,22 @@
+[package]
+name = "hanshi-core"
+description = "hanshi business logic — job queue, state machine runtime, VW↔printer correlation, rule engine."
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+hanshi-domain = { workspace = true }
+hanshi-ports = { workspace = true }
+blue-lang-host = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+async-trait = "0.1"

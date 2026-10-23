@@ -1,0 +1,21 @@
+[package]
+name = "hanshi-ports"
+description = "Traits + in-memory mocks for hanshi's external surfaces (SNMP, VW hot folder, VW logs). Real impls live in sibling crates later."
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+hanshi-domain = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }
+async-trait = "0.1"

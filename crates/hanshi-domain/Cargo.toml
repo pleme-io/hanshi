@@ -1,0 +1,21 @@
+[package]
+name = "hanshi-domain"
+description = "Typed domain model for hanshi — jobs, materials, profiles, printer state, events, advisories. Pure Rust; no IO."
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+gen-platform = { workspace = true }
+gen-types = { workspace = true }

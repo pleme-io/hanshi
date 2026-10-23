@@ -1,0 +1,29 @@
+[package]
+name = "hanshi-server"
+description = "hanshi HTTP admin API + coordinator tick loop. Axum-based; bound to the Tailscale interface in production."
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+hanshi-domain = { workspace = true }
+hanshi-ports = { workspace = true }
+hanshi-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+axum = { workspace = true }
+tower = { workspace = true, features = ["util"] }
+tower-http = { workspace = true }
+
+[dev-dependencies]
+tokio = { workspace = true }
+serde_json = { workspace = true }
+tower = { workspace = true, features = ["util"] }
