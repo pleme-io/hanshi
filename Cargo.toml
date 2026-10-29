@@ -60,7 +60,7 @@ sha2 = "0.10"
 hex = "0.4"
 
 # blue (crates.io): advisory rule bundles are blue programs
-blue-lang-host = "0.0.84"
+blue-lang-host = "0.0.125"
 
 # hanshi crates (workspace-local)
 hanshi-domain = { path = "crates/hanshi-domain" }
