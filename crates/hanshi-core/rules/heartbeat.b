@@ -13,7 +13,7 @@ def bundle_loaded()
 end
 
 def ink_low()
-  if json_get(json_parse(inputs_json), "ink_low")
+  if json_get(json_parse(inputs_json), :ink_low)
     emit_advisory(
       :warn,
       "Ink low",
