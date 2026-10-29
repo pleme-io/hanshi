@@ -1,5 +1,5 @@
 def rules()
-  ["bundle_loaded", "ink_low"]
+  %w[bundle_loaded ink_low]
 end
 
 def bundle_loaded()
