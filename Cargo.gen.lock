@@ -2,7 +2,7 @@
   "schema_version": 2,
   "cargo_lock_sha256": "a12f3c591006d43bee1957afa7ead934886a33eb4671e58fe319d1e57ab691f2",
   "manifest_sha256": {
-    "Cargo.toml": "480838335429c1f23424521ecac9a97aa829ac89cc1cc92780468cecea6d669f",
+    "Cargo.toml": "ce37ad5f58469dd34ba9c7d3251220924398be18064d56cf15995978f9a7bcf6",
     "crates/hanshi-bin/Cargo.toml": "2d5c3059f6058946cbd8966a9e7f7d9d2c1e4f023351085cc8765c219643eb02",
     "crates/hanshi-core/Cargo.toml": "d23d6fa998f08dedd0d3e4d8ba24f891406dd81bcab5af84a141678f4335f887",
     "crates/hanshi-domain/Cargo.toml": "cc4e5f5e2597f0216f8ab3c52d8c599e75ae494e7a70eafcfbdeddd2493b23a7",
