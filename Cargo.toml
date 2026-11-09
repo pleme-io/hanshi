@@ -37,8 +37,7 @@ thiserror = "2"
 uuid = { version = "1", features = ["v4", "serde"] }
 chrono = { version = "0.4", features = ["serde"] }
 
-# Typed-dispatcher catalog integration
-# (theory/UNIFIED-COMPUTING-MODEL.md §VI).
+# Typed-dispatcher catalog integration.
 gen-platform = { git = "https://github.com/pleme-io/gen" }
 gen-types = { git = "https://github.com/pleme-io/gen" }
 

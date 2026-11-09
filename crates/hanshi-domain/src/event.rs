@@ -81,8 +81,7 @@ pub enum JobEventKind {
 // Fleet-wide dispatcher-catalog registration. ELEVENTH consumer
 // class adopting gen-platform's typed-dispatcher catamorphism
 // (after gen / caixa / wasm-platform / cofre / shigoto / engenho /
-// magma / kura / pangea / tatara). See
-// theory/UNIFIED-COMPUTING-MODEL.md §VI.
+// magma / kura / pangea / tatara).
 gen_platform::register_dispatcher!("hanshi.job-event-kind", JobEventKind);
 
 impl JobEventKind {
